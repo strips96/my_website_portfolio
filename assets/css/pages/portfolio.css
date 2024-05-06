@@ -26,6 +26,7 @@
 \*-----------------------------------*/
 
 @import url('../components/btn.css');
+@import url('../components/card.css');
 
 
 
@@ -92,6 +93,10 @@
 .portfolio-card .card-text { margin-block: 10px 25px; }
 
 
+.close-section {
+  position: relative;
+  margin-left: auto;
+}
 
 
 

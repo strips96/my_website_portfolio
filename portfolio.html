@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="./assets/css/require.css">
   <link rel="stylesheet" href="./assets/css/pages/portfolio.css">
 
+
 </head>
 
 <body>
@@ -123,14 +124,33 @@
 
                   <span class="chip label-md">Feature Design and Development</span>
 
-                  <h3 class="title-md">In-App Font Uploader</h3>
+                  <h3 class="title-md">Font Upload Automation Feature: Revolutionizing Custom Font Integration</h3>
 
                   <p class="card-text">
-                    I design and develop services for customers of all sizes, specializing in creating stylish, modern
-                    websites, web services and online stores
+                    <span class="title-sm">Tech stack: JavaScript, Vue.js, Node.js, AWS S3 and Tailwind.</span>
+                    <br>
+                    Upgraded the user experience by implementing an automated, single click solution for custom font uploads within our app, reducing turnaround time from days to minutes. Architected functionality and designed intuitive UI for real-time font style preview.
                   </p>
 
-                  <a href="#" class="btn btn-primary">View Project</a>
+                  <section id="font" class="card card-lg" style="display: none;">
+                    <button closeFontProject class="close-section">
+                      <ion-icon name="close-circle-outline"></ion-icon>
+                    </button>
+                    <p class="card-text">
+                      Previously, users seeking to employ custom fonts faced a cumbersome process. They had to liaise with a customer success manager who manually converted font files into base64 encoded strings, then manually added them to the assets folder of the user's hosting location. This laborious procedure took approximately two days from request to implementation.
+                      <br>
+
+                      I envisioned a solution to streamline this process. Users could now effortlessly upload their font files directly to our app's assets manager with a single click. Leveraging automated functions, I encoded the files into base64 URLs, hosted them on S3, and generated a font-face object. This object, containing the necessary CSS code, could be seamlessly integrated into user graphics files.
+                      <br>
+
+                      Moreover, I crafted an intuitive UI, enabling users to preview their fonts in real-time post-upload. This innovation dramatically reduced the turnaround time from days to mere minutes, empowering users to expediently incorporate custom fonts into their designs with a single click.
+                      <br>
+
+                      This feature not only enhanced user experience but also proved to be a lucrative addition to our product offerings. Incorporated into our revised packages, it contributed approximately $300k in revenue year-over-year. Furthermore, it significantly minimized manual engineering efforts, unlocking additional resources for strategic endeavors.
+                    </p>
+                  </section>
+                  <br>
+                  <a href="#" class="btn btn-primary" fontProject>View Details</a>
 
                 </div>
 
@@ -153,14 +173,34 @@
 
                   <span class="chip label-md">Product Design and Development</span>
 
-                  <h3 class="title-md">Admin Subscription Management App</h3>
+                  <h3 class="title-md">Streamlining Account Management and Empowering Customer Managers</h3>
 
                   <p class="card-text">
-                    I design and develop services for customers of all sizes, specializing in creating stylish, modern
-                    websites, web services and online stores
+                    <span class="title-sm">Tech stack: TypeScript, Vue.js, Primevue, Node.js and Tailwind.</span>
                   </p>
+                  <br>
+                  <section id="tashboard" class="card card-lg" style="display: none;">
+                    <button closeTashboardProject class="close-section">
+                      <ion-icon name="close-circle-outline"></ion-icon>
+                    </button>
+                    <p class="card-text">
+                      Customer managers faced numerous hurdles when it came to making overrides or adjustments to client accounts. This process often involved manual interventions from engineers, sometimes requiring direct edits to the production database.
+                      <br>
 
-                  <a href="#" class="btn btn-primary">View Project</a>
+                      To address these challenges, I collaborated closely with customer success managers and support teams to understand their pain points and requirements for managing client accounts and access settings. With insights gathered, I spearheaded the development of an MVP for an account management application.
+                      <br>
+
+                      This application revolutionized account management by empowering customer managers to independently handle tasks such as changing user emails, adding team members, or adjusting account ownership without engineer intervention. Utilizing frameworks like Primevue and Tailwind, I meticulously designed the UI to ensure user-friendly navigation and efficiency.
+                      <br>
+
+                      The implementation of this solution significantly reduced engineering support hours while granting customer managers unprecedented autonomy in managing and retaining clients. Furthermore, the application served as a centralized platform for managing client packages, allowing managers to easily toggle various features on and off to tailor plans to meet client needs.
+                      <br>
+                      This initiative not only streamlined internal processes but also enhanced customer satisfaction by providing greater flexibility and control over account management.
+                    </p>
+                  </section>
+                  <br>
+
+                  <a href="#" class="btn btn-primary" tashboardProject>View Details</a>
 
                 </div>
 
@@ -183,14 +223,32 @@
 
                   <span class="chip label-md">Product Design and Developmenr</span>
 
-                  <h3 class="title-md">Producer 2.0</h3>
+                  <h3 class="title-md">Enhancing User Experience: Transforming Production Management</h3>
 
                   <p class="card-text">
-                    I design and develop services for customers of all sizes, specializing in creating stylish, modern
-                    websites, web services and online stores
+                    <span class="title-sm">Tech stack: JavaScript, Vue.js, Node.js and Tailwind.</span>
                   </p>
+                  <br>
+                  <section id="producer" class="card card-lg" style="display: none;">
+                    <button closeProducerProject class="close-section">
+                      <ion-icon name="close-circle-outline"></ion-icon>
+                    </button>
+                    <p class="card-text">
 
-                  <a href="#" class="btn btn-primary">View Project</a>
+                      Initially, the production management interface provided users with only basic information—a list of production names, devoid of any context or additional details.
+                      <br>
+                      To enrich user experience, I redesigned and implemented a layout that offered comprehensive insights into each production. Users could now easily access critical information such as creator details, creation dates, and associated teams.
+                      <br>
+                      Furthermore, I developed an API and associated functions to enable users to restore deleted productions within a 30-day window. Additionally, I introduced a feature allowing users to favorite or "star" productions, with a dedicated collection in the database to store their preferences.
+                      <br>
+                      Utilizing modern frontend tools, I ensured seamless real-time updates, enhancing the responsiveness and usability of the platform. Moreover, I incorporated two new view options—list view and card view—empowering users to customize their experience. These views also leveraged local storage, eliminating the need for users to manually update their preferences each time they accessed the platform. 
+                      <br>
+                      This transformation not only provided users with richer insights and greater functionality but also significantly improved the efficiency and usability of the production management interface.
+                    </p>
+                  </section>
+                  <br>
+
+                  <a href="#" class="btn btn-primary" producerProject>View Project</a>
 
                 </div>
 
@@ -293,6 +351,7 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/functions.js"></script>
 
   <!-- 
     - ionicon
